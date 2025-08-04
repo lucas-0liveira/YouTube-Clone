@@ -33,8 +33,9 @@ body {
 }
 
 .logotipo img {
-    height: 32px;
+    height: 26px;
     width: auto;
+    padding: 3px 0 0 0;
 }
 
 .cabecalho-esquerda {
@@ -79,8 +80,9 @@ body {
     outline: none;
     background: #fff;
     border: 1px solid #ccc;
-    border-right: none;
+    border-right: 0;
     border-radius: 40px 0 0 40px;
+    cursor: text;
 }
 
 .barra-pesquisa:focus {
@@ -102,4 +104,44 @@ body {
 
 .botao-pesquisa:hover {
   background: #f0f0f0;
+}
+
+.cabecalho-direita {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.botao-icone {
+  background: none;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #606060;
+  font-size: 18px;
+  transition: background-color 0.2s;
+}
+
+.botao-icone:hover {
+  background: #f2f2f2;
+}
+
+.pesquisa-mobile {
+  display: none;
+}
+
+.img-perfil {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.conteudo-principal {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 90px;
+  width: 100vw;
+  min-height: calc(100vh - 56px);
 }
