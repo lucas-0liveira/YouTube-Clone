@@ -11,3 +11,50 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
 }
+
+.cabecalho {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    z-index: 1000;
+    height: 56px;
+    border-bottom: 1px solid transparent;
+}
+
+.cabecalho-conteudo {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    padding: 0 16px;
+    align-items: center;
+}
+
+.logotipo {
+    height: 32px;
+    width: auto;
+}
+
+.cabecalho-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.botao-menu {
+    background: none;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+    color: #606060;
+    transition: background-color 0.2s;
+}
+
+.botao-menu:hover {
+    background: #f2f2f2;
+}
+
