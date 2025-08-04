@@ -66,7 +66,7 @@ body {
     max-width: 640px;
 }
 
-.botao-pesquisa {
+.container-pesquisa {
     display: flex;
     width: 100%;
     max-width: 640px;
@@ -81,4 +81,25 @@ body {
     border: 1px solid #ccc;
     border-right: none;
     border-radius: 40px 0 0 40px;
+}
+
+.barra-pesquisa:focus {
+    border-color: #1c62b9; 
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.botao-pesquisa {
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 40px 40px 0;
+  background: #f8f8f8;
+  cursor: pointer;
+  color: #606060;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+
+.botao-pesquisa:hover {
+  background: #f0f0f0;
 }
