@@ -25,12 +25,11 @@ body {
 
 .cabecalho-conteudo {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     height: 100%;
     width: 100%;
-    margin-top: 3px;
     padding: 0 16px;
-    align-items: center;
 }
 
 .logotipo img {
@@ -42,6 +41,7 @@ body {
 .cabecalho-esquerda {
     display: flex;
     align-items: center;
+    margin-top: 3px;
     gap: 16px;
 }
 
